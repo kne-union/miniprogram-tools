@@ -1,8 +1,10 @@
 {
   "name": "@kne/miniprogram-tools",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "用于微信小程序发布的一些脚本",
-  "bin": "bin.js",
+  "bin": {
+    "miniprogram-tools": "bin.js"
+  },
   "main": "index.js",
   "files": [
     "bin.js",
