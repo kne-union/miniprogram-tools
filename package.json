@@ -1,0 +1,28 @@
+{
+  "name": "@kne/miniprogram-tools",
+  "version": "0.1.0",
+  "description": "用于微信小程序发布的一些脚本",
+  "bin": "bin.js",
+  "main": "index.js",
+  "files": [
+    "bin.js",
+    "index.js",
+    "lib"
+  ],
+  "keywords": [
+    "miniprogram",
+    "publish"
+  ],
+  "author": "linzp",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "lodash": "^4.17.21",
+    "miniprogram-ci": "^1.9.10",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
