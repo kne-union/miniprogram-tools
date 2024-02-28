@@ -14,4 +14,6 @@ npx @kne/miniprogram-tools
 | PRIVATE_KEY  | 小程序发布密钥             | publish操作必须 |
 | EXAMPLE_PATH | 小程序示例example.json路径 | 否           |
 | SECRET       | 小程序token获取密钥        | qrcode操作必须  |
+| PROJECT_DIR  | 小程序发布目录             | 否           |
+
 
