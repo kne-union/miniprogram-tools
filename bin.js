@@ -15,7 +15,7 @@ switch (script) {
             console.error(e);
         });
         break;
-    case 'qr-code':
+    case 'qrcode':
         qrcode().catch((e) => {
             console.error(e);
         });

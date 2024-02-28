@@ -10,7 +10,7 @@ npx @kne/miniprogram-tools
 | 环境变量名称       | 说明                  | 是否必须        |
 |--------------|---------------------|-------------|
 | APP_ID       | 小程序APP_ID           | 是           |
-| VERSION      | 要发布的小程序的版本          | publish操作必须 |
+| VERSION      | 要发布的小程序的版本          | 否           |
 | PRIVATE_KEY  | 小程序发布密钥             | publish操作必须 |
 | EXAMPLE_PATH | 小程序示例example.json路径 | 否           |
 | SECRET       | 小程序token获取密钥        | qrcode操作必须  |
